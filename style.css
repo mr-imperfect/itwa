@@ -1,0 +1,504 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+header{
+    height: 80px; 
+}
+
+.header-container{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(70, 85, 76);
+}
+.logo{
+    width: 200px;
+    height: 80px;
+   
+    position: absolute;
+    left: 50px;
+
+}
+.logo h2{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+}
+.logo h4{
+    text-align: center;
+    margin-top: 12px;
+    color: white;
+    font-size: 17px;
+
+}
+.navbar{
+    position: absolute;
+    right: 0;
+}
+.navbar a{
+    margin-right: 26px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav a i{
+    color: red;
+    font-size: 20px;
+
+}
+
+nav select{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 26px;
+
+}
+.container{
+    height: 650px;
+    background:linear-gradient(rgba(218, 208, 208, 0.295),rgba(243, 220, 220, 0.123),rgba(172, 170, 170, 0.445)), url('./tobias-van-schneider-lHGeqh3XhRY-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.banner-container{
+    height:650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-section{
+    width: 800px;
+    height: 400px;
+    color: white;
+    /* background-color: aqua; */
+
+}
+.left-section h3{
+    margin-top:50px;
+    text-align: center;
+    font-size: 20px;
+}
+.left-section h5{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.left-section h2{
+    margin-top: 50px;
+}
+.left-section span{
+   margin-left: 170px;
+  
+}
+
+.left-section .hor{
+    height: 2px;
+    width: 700px;
+    
+    background-color: white;
+    margin-top: 20px;
+    
+    margin-left: 40px;
+}
+
+.right-section{
+    width: 400px;
+    height: 400px;
+   border: 2px solid red;
+}
+
+.swiper-slide img{
+    width: 400px;
+    height: 400px;
+}
+.ham{
+    display: none;
+}
+
+@media(max-width:767px){
+
+    header{
+        height: 80px; 
+    }
+    
+    .header-container{
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(70, 85, 76);
+    }
+    .logo{
+        width: 200px;
+        height: 80px;
+        position: absolute;
+        left: 30px;
+    
+    }
+    .logo h2{
+        text-align: center;
+        margin-top: 10px;
+        color: white;
+        font-size: 25px;
+    }
+    .logo h4{
+        text-align: center;
+        margin-top: 12px;
+        color: white;
+        font-size: 16px;
+    
+    }
+    .navbar{
+        position: absolute;
+        right: 0;
+        display: none;
+    }
+    
+    .navbar.is-active{
+        height: 840px;
+        background-color: red;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: 3s ease-in-out;
+        
+        position: absolute;
+        top: 80px;
+      
+        flex-direction: column;
+        z-index: 5;
+    }
+    .header-container .ham{
+        display: block;
+        color: red;
+        font-size: 25px;
+        position: absolute;
+        right: 30px;
+        cursor: pointer;
+      
+    }
+    .navbar  a{
+        margin-right: 26px;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    nav a i{
+        color: red;
+        font-size: 20px;
+    
+    }
+    
+    nav select{
+        background: none;
+        border: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 26px;
+    
+    }
+    .container{
+        height: 810px;
+        background:linear-gradient(rgba(218, 208, 208, 0.295),rgba(243, 220, 220, 0.123),rgba(172, 170, 170, 0.445)), url('./tobias-van-schneider-lHGeqh3XhRY-unsplash.jpg');
+        /* background-attachment: fixed; */
+        background-size: cover;
+    }
+    
+    .banner-container{
+        height:650px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .left-section{
+        width: 500px;
+        height: 400px;
+        color: white;
+        /* background-color: aqua; */
+    
+    }
+    .left-section h3{
+        margin-top:35px;
+        text-align: center;
+        font-size: 16px;
+     
+    }
+    .left-section h5{
+        margin-top: 35px;
+        font-size: 18px;
+        width: 100%;
+        /* background-color: #fff; */
+    }
+    .left-section h2{
+        margin-top: 35px;
+        font-size: 25px;
+        text-align: justify;
+    }
+    .left-section span{
+       margin-left: 100px;
+       margin-top: 10px;
+      
+    }
+    
+    .left-section .hor{
+        height: 2px;
+        width: 450px;
+        
+        background-color: white;
+        margin-top: 30px;
+        
+        margin-left:20px;
+    }
+    
+    .right-section{
+        width: 400px;
+        height: 400px;
+       border: 2px solid red;
+    }
+    
+    .swiper-slide img{
+        width: 400px;
+        height: 400px;
+    }
+    .ham{
+        display: none;
+    }
+
+}
+
+@media(max-width:360px){
+
+    body{
+        overflow-x: hidden;
+    }
+    .left-section h5{
+        margin-top: 35px;
+        font-size: 14px;
+        /* width: 100%; */
+        margin-left: 5px;
+        /* background0color: #fff; */
+    }
+    .left-section h2{
+       margin-left: 0px;
+       display: inline-block;
+        margin-top: 35px;
+        font-size: 16px;
+       
+       
+        text-align: center;
+    }
+    .left-section .hor{
+        height: 2px;
+        width: 320px;
+        
+        background-color: white;
+    }
+    .left-section span{
+       margin-left: 70px;
+       margin-top: 10px;
+      
+    }
+    .right-section{
+        width: 300px;
+        height: 300px;
+       border: 2px solid red;
+       overflow-x: hidden;
+    }
+    
+    .swiper-slide img{
+        width: 300px;
+        height: 300px;
+        overflow-x: hidden;
+    }
+
+}
+
+@media(max-width:411px){
+.left-section{
+    overflow-x: hidden;
+}
+.right-section{
+    overflow-x: hidden;
+}
+
+ 
+    .left-section h5{
+        margin-top: 35px;
+        font-size: 14px;
+        /* width: 100%; */
+        margin-left: 37px;
+        /* background0color: #fff; */
+        overflow-x: hidden;
+
+    }
+    .left-section h2{
+       margin-left: 30px;
+       display: inline-block;
+        margin-top: 35px;
+        font-size: 14px;
+       
+        overflow-x: hidden;
+
+        text-align: center;
+    }
+    .left-section .hor{
+        height: 2px;
+        width: 350px;
+        margin-left: 40px;
+        overflow-x: hidden;
+
+        
+        background-color: white;
+    }
+    .left-section span{
+       margin-left: 70px;
+       margin-top: 10px;
+       overflow-x: hidden;
+
+      
+    }
+    .right-section{
+        width: 300px;
+        height: 300px;
+       border: 2px solid red;
+       overflow-x: hidden;
+    }
+    
+    .swiper-slide img{
+        width: 300px;
+        height: 300px;
+        overflow-x: hidden;
+    }
+
+}
+
+
+@media(max-width:320px){
+.left-section{
+    overflow-x: hidden;
+}
+.right-section{
+    overflow-x: hidden;
+}
+
+ 
+    .left-section h5{
+        margin-top: 35px;
+        font-size: 12px;
+        /* width: 100%; */
+        margin-left: 12px;
+        /* background0color: #fff; */
+        overflow-x: hidden;
+
+    }
+    .left-section h2{
+       margin-left: 9px;
+       display: inline-block;
+        margin-top: 35px;
+        font-size: 14px;
+       
+        overflow-x: hidden;
+
+        text-align: center;
+    }
+    .left-section .hor{
+        height: 2px;
+        width: 270px;
+        margin-left: 25px;
+        overflow-x: hidden;
+
+        
+        background-color: white;
+    }
+    .left-section span{
+       margin-left: 70px;
+       margin-top: 10px;
+       overflow-x: hidden;
+
+      
+    }
+    .right-section{
+        width: 300px;
+        height: 300px;
+       border: 2px solid red;
+       overflow-x: hidden;
+    }
+    
+    .swiper-slide img{
+        width: 300px;
+        height: 300px;
+        overflow-x: hidden;
+    }
+
+}
+
+
+@media(max-width:375px){
+    .left-section{
+        overflow-x: hidden;
+    }
+    .right-section{
+        overflow-x: hidden;
+    }
+    
+     
+        .left-section h5{
+            margin-top: 35px;
+            font-size: 14px;
+            /* width: 100%; */
+            margin-left: 17px;
+            /* background0color: #fff; */
+            overflow-x: hidden;
+    
+        }
+        .left-section h2{
+           margin-left: 10px;
+           display: inline-block;
+            margin-top: 35px;
+            font-size: 14px;
+           
+            overflow-x: hidden;
+    
+            text-align: center;
+        }
+        .left-section .hor{
+            height: 2px;
+            width: 320px;
+            margin-left: 25px;
+            overflow-x: hidden;
+    
+            
+            background-color: white;
+        }
+        .left-section span{
+           margin-left: 70px;
+           margin-top: 10px;
+           overflow-x: hidden;
+    
+          
+        }
+        .right-section{
+            width: 300px;
+            height: 300px;
+           border: 2px solid red;
+           overflow-x: hidden;
+        }
+        
+        .swiper-slide img{
+            width: 300px;
+            height: 300px;
+            overflow-x: hidden;
+        }
+    
+    }
