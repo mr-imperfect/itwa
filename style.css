@@ -250,7 +250,7 @@ nav select{
     }
     .left-section h2{
         margin-top: 35px;
-        font-size: 25px;
+        font-size: 13px;
         text-align: justify;
     }
     
@@ -271,17 +271,17 @@ nav select{
     }
     
     .right-section{
-        width: 250px;
-        height: 250px;
+        width: 280px;
+        height: 280x;
        border: 2px solid red;
     }
     .swiper-container{
-        width: 250px;
+        width: 280px;
     }
     
     .swiper-slide img{
-        width: 250px;
-        height: 250px;
+        width: 280px;
+        height: 280px;
     }
    
 }
