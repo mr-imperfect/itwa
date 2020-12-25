@@ -230,6 +230,7 @@ nav select{
         /* background-color: aqua; */
         position: relative;
         margin-top: 50px;
+        overflow-x: hidden;
     
     }
     .left-section h3{
@@ -274,6 +275,7 @@ nav select{
         width: 280px;
         height: 280x;
        border: 2px solid red;
+       overflow-x: hidden;
     }
     .swiper-container{
         width: 280px;
