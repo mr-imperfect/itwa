@@ -251,16 +251,7 @@ nav select{
         font-size: 25px;
         text-align: justify;
     }
-    .left-section span{
-       /* margin-left: 100px;
-       margin-top: 10px; */
-       position: absolute;
-       top: 80px;
-       left: 0;
-       right: 0;
-       margin: auto;
-      
-    }
+    
     
     .left-section .hor{
         height: 2px;
@@ -278,14 +269,14 @@ nav select{
     }
     
     .right-section{
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
        border: 2px solid red;
     }
     
     .swiper-slide img{
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
     }
     .ham{
         display: none;
