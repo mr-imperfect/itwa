@@ -269,14 +269,14 @@ nav select{
     }
     
     .right-section{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
        border: 2px solid red;
     }
     
     .swiper-slide img{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
     .ham{
         display: none;
