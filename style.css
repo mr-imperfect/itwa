@@ -74,7 +74,9 @@ nav select{
     justify-content: space-around;
     align-items: center;
 }
-
+.swiper-container{
+    width: 400px;
+}
 .left-section{
     width: 800px;
     height: 400px;
@@ -272,6 +274,9 @@ nav select{
         width: 250px;
         height: 250px;
        border: 2px solid red;
+    }
+    .swiper-container{
+        width: 250px;
     }
     
     .swiper-slide img{
