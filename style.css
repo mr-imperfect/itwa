@@ -213,6 +213,8 @@ nav select{
         background:linear-gradient(rgba(218, 208, 208, 0.295),rgba(243, 220, 220, 0.123),rgba(172, 170, 170, 0.445)), url('./tobias-van-schneider-lHGeqh3XhRY-unsplash.jpg');
         /* background-attachment: fixed; */
         background-size: cover;
+        overflow-x: hidden;
+
     }
     
     .banner-container{
@@ -221,6 +223,8 @@ nav select{
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+        overflow-x: hidden;
+
     }
     
     .left-section{
@@ -273,7 +277,7 @@ nav select{
     
     .right-section{
         width: 280px;
-        height: 280x;
+        height: 280px;
        border: 2px solid red;
        overflow-x: hidden;
     }
